@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        th {
+            border: 1px solid black
+        }
+        
+
+
+
+        td {
+            border: 1px solid black
+        }
+    </style>
+</head>
+
+<body>
+    <table>
+        <thead>
+            <tr>
+                <th> </th>
+                <th colspan="2">Juan</th>
+                <th colspan="2">Raul</th>
+                <th colspan="2">Sonia</th>
+                <th colspan="2">Pedro</th>
+            </tr>
+            <tr>
+                <th>Dia</th>
+                <th>Entrada</th>
+                <th>Salida</th>
+                <th>Entrada</th>
+                <th>Salida</th>
+                <th>Entrada</th>
+                <th>Salida</th>
+                <th>Entrada</th>
+                <th>Salida</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th>Lunes</th>
+                <td>9:00</td>
+                <td>16:00</td>
+                <td>8:30</td>
+                <td>15:30</td>
+                <td>9:00</td>
+                <td>16:00</td>
+                <td>8:30</td>
+                <td>15:30</td>
+            </tr>
+            <tr>
+                <th>Martes</th>
+                <td>9:00</td>
+                <td>16:00</td>
+                <td>8:30</td>
+                <td>15:30</td>
+                <td>9:00</td>
+                <td>16:00</td>
+                <td>8:30</td>
+                <td>15:30</td>
+            </tr>
+            <tr>
+                <th>Miercoles</th>
+                <td>9:00</td>
+                <td>16:00</td>
+                <td>8:30</td>
+                <td>15:30</td>
+                <td>9:00</td>
+                <td>16:00</td>
+                <td>8:30</td>
+                <td>15:30</td>
+            </tr>
+            <tr>
+                <th>Jueves</th>
+                <td>9:00</td>
+                <td>16:00</td>
+                <td>8:30</td>
+                <td>15:30</td>
+                <td>9:00</td>
+                <td>16:00</td>
+                <td>8:30</td>
+                <td>15:30</td>
+            </tr>
+            <tr>
+                <th>Viernes</th>
+                <td>9:00</td>
+                <td>16:00</td>
+                <td>8:30</td>
+                <td>15:30</td>
+                <td>9:00</td>
+                <td>16:00</td>
+                <td>8:30</td>
+                <td>15:30</td>
+            </tr>
+
+
+        </tbody>
+        <tfoot>
+            <th>Fecha</th>
+            <th colspan="8">18/04/22</th>
+        </tfoot>
+    </table>
+    <img src="../../Imagen de WhatsApp 2024-03-15 a las 17.30.57_324ccda2.jpg" width="200px">
+    <img src="../../../Imágenes/Screenshots/Captura de pantalla (186).png" width="200px">
+    <img src="../../1-291cb8b958 (1).jpg" width="200px">
+    <video src="../../../../../Noten/Downloads/Curso Completo de Javascript desde Cero.mp4" controls
+        width="300px"></video>
+    <audio src="../../../../../Noten/Downloads/Reggaeton Classic Mix Vol.2 DJ Teto DJ Mes ft DJ Josh IR.mp3"
+        controls></audio>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/EwE47GgwhEA?si=w88s06U_Dzrn5B01"
+        title="YouTube video player" frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    <form method="post" enctype="multipart/form-data" action="backend/basededatos.php">
+        <label for="userName">Nombre de Usuario:</label>
+        <input type="text" name="nombreDeUsuario" placeholder="ejemplo:Ezequiel" id="userName"><br>
+        <label for="email">Email:</label>
+        <input type="email" name="email" placeholder="ejemplo@gmail.com" id="email"><br>
+        <label for="pass">Contraseña:</label>
+        <input type="password" name="pass" id="pass"><br>
+        <label for="passConfirm">Repite la
+            Contraseña:</label>
+        <input type="password" name="passConfirm" id="passConfirm"><br>
+        <label for="date">Fecha de Nacimiento:</label>
+        <input type="date" name="fechaNacimiento" id="date"><br>
+        <label for="textarea">Cuentano sobre ti:</label>
+        <textarea id="textarea" cols="20" rows="10" minlength="10" maxlength="200" name="cuentanos"
+            placeholder="cuentanos aqui.."></textarea><br>
+        <label for="selec">Como Nos Conociste?:</label>
+        <select name="comoNosConociste" id="selec">
+            <option value="Google">Google</option>
+            <option value="Safari">Safari</option>
+            <option value="Opera">Opera</option>
+            <option value="Mozilla">Mozilla</option>
+            <option value="Microsoft Edge">Microsoft Edge</option>
+        </select><br>
+    </form>
+</body>
+
+</html>
